@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/Buildeveloper/Gulp-Typescript/issues"
   },
-  "homepage": "https://github.com/Buildeveloper/Gulp-Typescript#readme"
+  "homepage": "https://github.com/Buildeveloper/Gulp-Typescript#readme",
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "tsify": "^4.0.1",
+    "typescript": "^3.6.4",
+    "vinyl-source-stream": "^2.0.0"
+  }
 }
